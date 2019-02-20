@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F1920060-074E-4C0C-9D49-3017F17C022D}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <RootNamespace>CSharpPractice</RootNamespace>
-    <AssemblyName>CSharpPractice</AssemblyName>
+    <ProjectGuid>{A2570FBC-777A-4527-B168-B141323FD4CA}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ClassRunner</RootNamespace>
+    <AssemblyName>ClassRunner</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,9 +31,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
