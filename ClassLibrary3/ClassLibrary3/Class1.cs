@@ -8,20 +8,15 @@ namespace ClassLibrary3
 {
     public class Class1
     {
-        //Create a function that takes a number as an argument. 
-        //Add up all the numbers from 1 to the number you passed to the function. 
-        //For example, if the input is 4 then your function 
-        //should return 10 because 1 + 2 + 3 + 4 = 10.
-        public static int AddUp(int num)
+        //Create a function that takes a number as its only argument and 
+        //returns true if it's less than or equal to zero, otherwise return false.
+        public static bool LessThanOrEqualToZero(double a)
         {
-            int y = num;
-
-            for (int i = 0; i < y; i++)
+            if (a <= 0)
             {
-                num = num + i;
+                return true;
             }
-
-            return num;
+            else return false;
         }
     }
 }
